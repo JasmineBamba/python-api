@@ -32,3 +32,5 @@ Data is a powerful tool that empowers us to go beyond general observations and t
 
 Link to detailed documentation of OpenWeatherMap API:
 https://openweathermap.org/api/one-call-3
+
+**Protecting API Keys:** To safeguard API keys, it's recommeneded to create a separate file to mention api keys used (in this project they were stored in api_keys.py file) and include this file in .gitignore. This ensures our keys remain confidential and are not shared publicly on GitHub, preventing unauthorized access and potential cost implications.
