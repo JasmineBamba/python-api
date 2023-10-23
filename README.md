@@ -8,7 +8,6 @@
 - [Part1: WeatherPy](#part1)
 - [Part2: VacationPy](#part2)
 - [APIs Used & Documentation](#api-documentation)
-- [References](#ref)
 
 ## Application Programing Interface (API)
 
