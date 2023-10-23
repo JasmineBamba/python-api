@@ -7,7 +7,7 @@
 - [Project Overview](#project-overview)
 - [Part1: WeatherPy](#part1)
 - [Part2: VacationPy](#part2)
-- [API Documentation](#api-documentation)
+- [APIs Used & Documentation](#api-documentation)
 - [References](#ref)
 
 ## Application Programing Interface (API)
@@ -57,18 +57,41 @@ The following scatter plots were created:
 - Southern Hemisphere: Cloudiness vs. Latitude
 - Northern Hemisphere: Wind Speed vs. Latitude
 - Southern Hemisphere: Wind Speed vs. Latitude
+
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/1158af92-cf4c-480d-9349-509aefc58dcb)
+
 In each section, we explained what the linear regression was modeling and shared any notable findings or relationships that we observed in the data. This analysis provides valuable insights into how weather variables are affected by a city's proximity to the equator.
-
-
-
-
-
-
-Regenerate
 
 ## Part2: VacationPy
 
-## APIS Used & Documentation
+In the second part of the project, we leveraged our weather data and used the geoViews Python library to plan future vacations. We also incorporated the Geoapify API to create map visualizations.
+
+1. **Humidity Map:** We generated a map displaying points for each city in the city_data_df DataFrame, with the size of the points representing the humidity level in each city.
+
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/a77a4c83-b858-474d-bbff-f7b1216e4eac)
+
+2. **Ideal Weather Conditions:** We narrowed down the city_data_df DataFrame to find our ideal weather conditions, including a specific temperature range, wind speed, and cloudiness criteria.
+   
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/8f79178c-4757-4203-b3c0-0ad635029296)
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/9cdffb2e-90ae-46f1-a805-231764c3fa57)
+
+
+3. **Hotel Data:** We created a new DataFrame called hotel_df to store information about hotels, including the city, country, coordinates, and humidity.
+
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/641335de-82e0-47d5-a381-65a19a931efb)
+
+4. **Hotel Selection:** For each city, we used the Geoapify API to find the first hotel located within 10,000 meters of the coordinates.
+  
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/1f009875-373c-407b-9b52-44ae6b9b9b93)
+
+6. **Hover Messages:** We added the hotel name and the country as additional information in the hover message for each city on the map, allowing us to plan future vacations with essential details.
+
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/728c0961-9579-4fa2-8f10-62ad9da7560c)
+
+This part of the project empowers us to make informed decisions about vacation destinations based on weather conditions and provides a visually engaging way to explore potential travel spots.
+
+
+## APIs Used & Documentation
 
 - OpenWeatherMap API (weather information):
 https://openweathermap.org/api/one-call-3
