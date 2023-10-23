@@ -28,9 +28,15 @@ The exploration of weather conditions as we approach the equator is a fundamenta
 
 Data is a powerful tool that empowers us to go beyond general observations and test hypotheses rigorously. By collecting and analyzing weather data from a variety of locations at different latitudes, we can uncover trends, patterns, and correlations that might not be immediately obvious.
 
-## API Documentation
+## APIS Used & Documentation
 
-Link to detailed documentation of OpenWeatherMap API:
+- OpenWeatherMap API (weather information):
 https://openweathermap.org/api/one-call-3
+
+- Geoapify (used to locating points on map by using latitude & longitude):
+https://apidocs.geoapify.com/#docs
+
+- Citipy Python Package (to look up city names and corresponding country codes based on latitude and longitude coordinates)
+https://pypi.org/project/citipy/
 
 **Protecting API Keys:** To safeguard API keys, it's recommeneded to create a separate file to mention api keys used (in this project they were stored in api_keys.py file) and include this file in .gitignore. This ensures our keys remain confidential and are not shared publicly on GitHub, preventing unauthorized access and potential cost implications.
