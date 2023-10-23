@@ -5,6 +5,8 @@
 - [Application Programing Interface (API)](#application-programing-interface-(API))
 - [JSON Traversals](#json-traversals)
 - [Project Overview](#project-overview)
+- [Part1: WeatherPy](#part1)
+- [Part2: VacationPy](#part2)
 - [API Documentation](#api-documentation)
 - [References](#ref)
 
@@ -27,6 +29,44 @@ The exploration of weather conditions as we approach the equator is a fundamenta
 ![image](https://github.com/JasmineBamba/python-api/assets/135666038/5e4aec78-a837-49f9-ac85-d8fd8f5edce0)
 
 Data is a powerful tool that empowers us to go beyond general observations and test hypotheses rigorously. By collecting and analyzing weather data from a variety of locations at different latitudes, we can uncover trends, patterns, and correlations that might not be immediately obvious.
+
+## Part1: WeatherPy
+
+**Relationship Between Weather Variables and Latitude**
+
+In the first part of the project, OpenWeatherMap API weere used to retrieve weather data for over 500 cities. Series of scatter plots were created to showcase the relationships between latitude and various weather variables:
+
+- Latitude vs. Temperature: Analyzed how temperature changes with latitude.
+- Latitude vs. Humidity: Explored the relationship between latitude and humidity.
+- Latitude vs. Cloudiness: Investigated how cloudiness varies with latitude.
+- Latitude vs. Wind Speed: Examined how wind speed is related to latitude.
+
+![image](https://github.com/JasmineBamba/python-api/assets/135666038/30e75660-8211-49fd-a28c-40c03f27c95d)
+
+**Linear Regression Analysis**
+
+Linear regressions for each of these relationships were computed, splitting the data into Northern and Southern Hemispheres. Linear regression lines, the model's formula, and the r-values were included in the scatter plots.
+
+The following scatter plots were created:
+
+- Northern Hemisphere: Temperature vs. Latitude
+- Southern Hemisphere: Temperature vs. Latitude
+- Northern Hemisphere: Humidity vs. Latitude
+- Southern Hemisphere: Humidity vs. Latitude
+- Northern Hemisphere: Cloudiness vs. Latitude
+- Southern Hemisphere: Cloudiness vs. Latitude
+- Northern Hemisphere: Wind Speed vs. Latitude
+- Southern Hemisphere: Wind Speed vs. Latitude
+In each section, we explained what the linear regression was modeling and shared any notable findings or relationships that we observed in the data. This analysis provides valuable insights into how weather variables are affected by a city's proximity to the equator.
+
+
+
+
+
+
+Regenerate
+
+## Part2: VacationPy
 
 ## APIS Used & Documentation
 
