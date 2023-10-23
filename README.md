@@ -12,4 +12,7 @@ JSON traversals refer to the process of navigating and extracting data from JSON
 
 ![image](https://github.com/JasmineBamba/python-api/assets/135666038/08b9ad45-5c10-44de-9d71-783ecaa30a2a)
 
+## API Documentation
 
+Link to detailed documentation of OpenWeatherMap API:
+https://openweathermap.org/api/one-call-3
